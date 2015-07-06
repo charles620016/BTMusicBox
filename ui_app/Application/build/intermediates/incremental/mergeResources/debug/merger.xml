@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3" xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2"><dataSet config="21.0.2"><source path="D:\Development\Android_workspace\BluetoothPi\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\res"><file path="D:\Development\Android_workspace\BluetoothPi\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\res\values\values.xml" qualifiers=""><declare-styleable name="CardView">
+
+        <!-- Background color for CardView. -->
+        <attr format="color" name="cardBackgroundColor"/>
+        <!-- Corner radius for CardView. -->
+        <attr format="dimension" name="cardCornerRadius"/>
+        <!-- Elevation for CardView. -->
+        <attr format="dimension" name="cardElevation"/>
+        <!-- Maximum Elevation for CardView. -->
+        <attr format="dimension" name="cardMaxElevation"/>
+        <!-- Add padding in API v21+ as well to have the same measurements with previous versions. -->
+        <attr format="boolean" name="cardUseCompatPadding"/>
+        <!-- Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners. -->
+        <attr format="boolean" name="cardPreventCornerOverlap"/>
+        <!-- Inner padding between the edges of the Card and children of the CardView. -->
+        <attr format="dimension" name="contentPadding"/>
+        <!-- Inner padding between the left edge of the Card and children of the CardView. -->
+        <attr format="dimension" name="contentPaddingLeft"/>
+        <!-- Inner padding between the right edge of the Card and children of the CardView. -->
+        <attr format="dimension" name="contentPaddingRight"/>
+        <!-- Inner padding between the top edge of the Card and children of the CardView. -->
+        <attr format="dimension" name="contentPaddingTop"/>
+        <!-- Inner padding between the bottom edge of the Card and children of the CardView. -->
+        <attr format="dimension" name="contentPaddingBottom"/>
+    </declare-styleable><color name="cardview_shadow_start_color">#37000000</color><dimen name="cardview_default_elevation">2dp</dimen><style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style><dimen name="cardview_compat_inset_shadow">1dp</dimen><color name="cardview_shadow_end_color">#03000000</color><style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style><color name="cardview_light_background">#FFFAFAFA</color><dimen name="cardview_default_radius">2dp</dimen><style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style><color name="cardview_dark_background">#FF202020</color></file></source></dataSet><dataSet config="21.0.2"><source path="D:\Development\Android_workspace\BluetoothPi\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\res"/></dataSet><dataSet config="21.0.2"><source path="D:\Development\Android_workspace\BluetoothPi\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.2\res"><file path="D:\Development\Android_workspace\BluetoothPi\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.2\res\values\values.xml" qualifiers=""><dimen name="default_gap">16dip</dimen><declare-styleable name="GridLayout">
+
+        <!--
+              support versions. All attributes not present in ViewGroup/View are
+              redefined in the support library namespace.
+        -->
+
+
+        <!--
+        The orientation property is not used during layout. It is only used to
+        allocate row and column parameters when they are not specified by its children's
+        layout parameters. GridLayout works like LinearLayout in this case;
+        putting all the components either in a single row or in a single column -
+        depending on the value of this flag. In the horizontal case, a columnCount
+        property may be additionally supplied to force new rows to be created when a
+        row is full. The rowCount attribute may be used similarly in the vertical case.
+        The default is horizontal.
+        -->
+        <attr name="orientation">
+
+            <!-- Defines an horizontal widget. -->
+            <enum name="horizontal" value="0"/>
+            <!-- Defines a vertical widget. -->
+            <enum name="vertical" value="1"/>
+        </attr>
+        <!-- The maximum number of rows to create when automatically positioning children. -->
+        <attr format="integer" name="rowCount"/>
+        <!-- The maximum number of columns to create when automatically positioning children. -->
+        <attr format="integer" name="columnCount"/>
+        <!--
+        When set to true, tells GridLayout to use default margins when none are specified
+        in a view's layout parameters.
+        The default value is false.
+        See {@link android.widget.GridLayout#setUseDefaultMargins(boolean)}.
+        -->
+        <attr format="boolean" name="useDefaultMargins"/>
+        <!--
+        When set to alignMargins, causes alignment to take place between the outer
+        boundary of a view, as defined by its margins. When set to alignBounds,
+        causes alignment to take place between the edges of the view.
+        The default is alignMargins.
+        See {@link android.widget.GridLayout#setAlignmentMode(int)}.
+        -->
+        <attr name="alignmentMode">
+
+            <!--
+            Align the bounds of the children.
+            See {@link android.widget.GridLayout#ALIGN_BOUNDS}.
+            -->
+            <enum name="alignBounds" value="0"/>
+            <!--
+            Align the margins of the children.
+            See {@link android.widget.GridLayout#ALIGN_MARGINS}.
+            -->
+            <enum name="alignMargins" value="1"/>
+        </attr>
+        <!--
+        When set to true, forces row boundaries to appear in the same order
+        as row indices.
+        The default is true.
+        See {@link android.widget.GridLayout#setRowOrderPreserved(boolean)}.
+        -->
+        <attr format="boolean" name="rowOrderPreserved"/>
+        <!--
+        When set to true, forces column boundaries to appear in the same order
+        as column indices.
+        The default is true.
+        See {@link android.widget.GridLayout#setColumnOrderPreserved(boolean)}.
+        -->
+        <attr format="boolean" name="columnOrderPreserved"/>
+    </declare-styleable><declare-styleable name="GridLayout_Layout">
+
+        <!--
+              support versions. All attributes not present in MarginLayout are
+              redefined in the support library name space.
+        -->
+
+
+        <!-- START MarginLayout layoutparams -->
+
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        <!--
+              Specifies extra space on the left, top, right and bottom
+              sides of this view. This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_margin"/>
+        <!--
+              Specifies extra space on the left side of this view.
+              This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_marginLeft"/>
+        <!--
+              Specifies extra space on the top side of this view.
+              This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_marginTop"/>
+        <!--
+              Specifies extra space on the right side of this view.
+              This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_marginRight"/>
+        <!--
+              Specifies extra space on the bottom side of this view.
+              This space is outside this view's bounds.
+        -->
+        <attr name="android:layout_marginBottom"/>
+
+        <!-- END MarginLayout layoutparams -->
+
+
+        <!--
+        The row boundary delimiting the top of the group of cells
+        occupied by this view.
+        -->
+        <attr format="integer" name="layout_row"/>
+        <!--
+        The row span: the difference between the top and bottom
+        boundaries delimiting the group of cells occupied by this view.
+        The default is one.
+        See {@link android.widget.GridLayout.Spec}.
+        -->
+        <attr format="integer" min="1" name="layout_rowSpan"/>
+        <!--
+        The relative proportion of vertical space that should be allocated to this view
+        during excess space distribution.
+        -->
+        <attr format="float" name="layout_rowWeight"/>
+        <!--
+        The column boundary delimiting the left of the group of cells
+        occupied by this view.
+        -->
+        <attr format="integer" name="layout_column"/>
+        <!--
+        The column span: the difference between the right and left
+        boundaries delimiting the group of cells occupied by this view.
+        The default is one.
+        See {@link android.widget.GridLayout.Spec}.
+        -->
+        <attr format="integer" min="1" name="layout_columnSpan"/>
+        <!--
+        The relative proportion of horizontal space that should be allocated to this view
+        during excess space distribution.
+        -->
+        <attr format="float" name="layout_columnWeight"/>
+        <!--
+        Gravity specifies how a component should be placed in its group of cells.
+        The default is LEFT | BASELINE.
+        See {@link android.widget.GridLayout.LayoutParams#setGravity(int)}.
+        -->
+        <attr name="layout_gravity">
+
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30"/>
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03"/>
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05"/>
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10"/>
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70"/>
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01"/>
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07"/>
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11"/>
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77"/>
+            <!--
+             Additional option that can be set to have the top and/or bottom edges of
+             the child clipped to its container's bounds.
+             The clip will be based on the vertical gravity: a top gravity will clip the bottom
+             edge, a bottom gravity will clip the top edge, and neither will clip both edges.
+            -->
+            <flag name="clip_vertical" value="0x80"/>
+            <!--
+             Additional option that can be set to have the left and/or right edges of
+             the child clipped to its container's bounds.
+             The clip will be based on the horizontal gravity: a left gravity will clip the right
+             edge, a right gravity will clip the left edge, and neither will clip both edges.
+            -->
+            <flag name="clip_horizontal" value="0x08"/>
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005"/>
+        </attr>
+    </declare-styleable></file></source></dataSet><dataSet config="main"><source path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res"><file name="folder" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\folder.png" qualifiers="hdpi-v4" type="drawable"/><file name="forward" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\forward.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_device_access_bluetooth_searching" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\ic_action_device_access_bluetooth_searching.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="music" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\music.png" qualifiers="hdpi-v4" type="drawable"/><file name="next" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\next.png" qualifiers="hdpi-v4" type="drawable"/><file name="pause" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\pause.png" qualifiers="hdpi-v4" type="drawable"/><file name="play" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\play.png" qualifiers="hdpi-v4" type="drawable"/><file name="previous" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\previous.png" qualifiers="hdpi-v4" type="drawable"/><file name="rewind" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\rewind.png" qualifiers="hdpi-v4" type="drawable"/><file name="setup" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\setup.png" qualifiers="hdpi-v4" type="drawable"/><file name="stop" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\stop.png" qualifiers="hdpi-v4" type="drawable"/><file name="tile" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\tile.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="voldw" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\voldw.png" qualifiers="hdpi-v4" type="drawable"/><file name="volup" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\volup.png" qualifiers="hdpi-v4" type="drawable"/><file name="_forward" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\_forward.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="_next" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\_next.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="_pause" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\_pause.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="_play" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\_play.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="_previous" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\_previous.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="_rewind" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\_rewind.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="_stop" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\_stop.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="_voldw" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\_voldw.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="_volup" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\_volup.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_device_access_bluetooth_searching" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-mdpi\ic_action_device_access_bluetooth_searching.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_device_access_bluetooth_searching" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-xhdpi\ic_action_device_access_bluetooth_searching.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_device_access_bluetooth_searching" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-xxhdpi\ic_action_device_access_bluetooth_searching.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_device_list" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\layout\activity_device_list.xml" qualifiers="" type="layout"/><file name="activity_main" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="device_name" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\layout\device_name.xml" qualifiers="" type="layout"/><file name="fragment_bluetooth_chat" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\layout\fragment_bluetooth_chat.xml" qualifiers="" type="layout"/><file name="message" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\layout\message.xml" qualifiers="" type="layout"/><file name="activity_main" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\layout-w720dp\activity_main.xml" qualifiers="w720dp-v13" type="layout"/><file name="bluetooth_chat" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\menu\bluetooth_chat.xml" qualifiers="" type="menu"/><file name="main" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\values\base-strings.xml" qualifiers=""><string name="intro_message">
+        <![CDATA[
+        
+            
+            This application allows two Android devices to carry out two-way text chat over
+            Bluetooth. It demonstrates all the fundamental Bluetooth API capabilites, such as:
+              (1) Scanning for other Bluetooth devices
+              (2) Querying the local Bluetooth adapter for paired Bluetooth devices
+              (3) Establishing RFCOMM channels/sockets
+              (4) Connecting to a remote device
+              (5) Transfering data over Bluetooth
+            
+        
+        ]]>
+    </string><string name="app_name">BTMusicBox</string></file><file path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\values\fragmentview_strings.xml" qualifiers=""><string name="sample_show_log">Log</string><string name="sample_hide_log">Tracks</string></file><file path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\values\strings.xml" qualifiers=""><string name="select_device">select a device to connect</string><string name="discoverable">Make discoverable</string><string name="title_not_connected">not connected</string><string name="title_other_devices">Other Available Devices</string><string name="none_paired">No devices have been paired</string><string name="title_paired_devices">Paired Devices</string><string-array name="weekday">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wen</item>
+        <item>Thu</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wen</item>
+        <item>Thu</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wen</item>
+        <item>Thu</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wen</item>
+        <item>Thu</item>
+    </string-array><string name="none_found">No devices found</string><string name="scanning">scanning for devices...</string><string name="title_connecting">connecting...</string><string name="send">Send</string><string name="insecure_connect">Connect a device - Insecure</string><string name="not_connected">You are not connected to a device</string><string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string><string name="secure_connect">Connect a device - Secure</string><string name="jsonfile">{"children": [{"children": [{"children": [{"album": "Les Miserables","name": "01. Look Down.mp3","artist": "Hugh Jackman, Russell Crowe Convicts","format": ".mp3","playtime": 141,"type": "file","id": 3},{"album": "Les Miserables","name": "02. The Bishop.mp3","artist": "Hugh Jackman Colm Wilkinson","format": ".mp3","playtime": 95,"type": "file","id": 4},{"album": "Les Miserables","name": "03. Valjean's Soliloquy.mp3","artist": "Hugh Jackman","format": ".mp3","playtime": 199,"type": "file","id": 5},{"album": "Les Miserables","name": "04. At The End Of The Day.mp3","artist": "Hugh Jackman, Anne Hathaway, Factory Girls Cast","format": ".mp3","playtime": 267,"type": "file","id": 6},{"album": "Les Miserables","name": "05. I Dreamed A Dream.mp3","artist": "Anne Hathaway","format": ".mp3","playtime": 278,"type": "file","id": 7},{"album": "Les Miserables","name": "06. The Confrontation.mp3","artist": "Hugh Jackman  Russell Crowe","format": ".mp3","playtime": 115,"type": "file","id": 8},{"album": "Les Miserables","name": "07. Castle On A Cloud.mp3","artist": "Isabelle Allen","format": ".mp3","playtime": 71,"type": "file","id": 9},{"album": "Les Miserables","name": "08. Master Of The House.mp3","artist": "Sacha Baron Cohen, Helena Bonham Carter  Cast","format": ".mp3","playtime": 292,"type": "file","id": 10},{"album": "Les Miserables","name": "09. Suddenly.mp3","artist": "Hugh Jackman","format": ".mp3","playtime": 152,"type": "file","id": 11},{"album": "Les Miserables","name": "10. Stars.mp3","artist": "Russell Crowe","format": ".mp3","playtime": 181,"type": "file","id": 12},{"album": "Les Miserables","name": "11. ABC Cafe-Red  Black.mp3","artist": "Eddie Redmayne, Aaron Tveit  Students","format": ".mp3","playtime": 262,"type": "file","id": 13},{"album": "Les Miserables","name": "12. In My Life-A Heart Full Of Love.mp3","artist": "Amanda Seyfried, Eddie Redmayne  Samantha Barks","format": ".mp3","playtime": 192,"type": "file","id": 14},{"album": "Les Miserables","name": "13. On My Own.mp3","artist": "Samantha Barks","format": ".mp3","playtime": 191,"type": "file","id": 15},{"album": "Les Miserables","name": "14. One Day More.mp3","artist": "Cast Of Les Miserables","format": ".mp3","playtime": 219,"type": "file","id": 16},{"album": "Les Miserables","name": "15. Drink With Me.mp3","artist": "Eddie Redmayne, Daniel Huttlestone  Students","format": ".mp3","playtime": 102,"type": "file","id": 17},{"album": "Les Miserables","name": "16. Bring Him Home.mp3","artist": "Hugh Jackman","format": ".mp3","playtime": 217,"type": "file","id": 18},{"album": "Les Miserables","name": "17. The Final Battle.mp3","artist": "Students Cast Of Les Miserables","format": ".mp3","playtime": 197,"type": "file","id": 19},{"album": "Les Miserables","name": "18. Javert's Suicide.mp3","artist": "Russell Crowe","format": ".mp3","playtime": 180,"type": "file","id": 20},{"album": "Les Miserables","name": "19. Empty Chairs At Empty Tables.mp3","artist": "Eddie Redmayne","format": ".mp3","playtime": 193,"type": "file","id": 21},{"album": "Les Miserables","name": "20. Epilogue.mp3","artist": "Cast Of Les Miserables","format": ".mp3","playtime": 380,"type": "file","id": 22}],"type": "folder","name": "Les Miserables","id": 2},{"format": "notaudio","type": "file","name": "04.NIRGILIS - sakura.wav","id": 23},{"children": [{"children": [{"children": [{"album": "The Hobbit An Unexpected Journey","name": "01. My Dear Frodo.mp3","artist": "Howard Shore","format": ".mp3","playtime": 483,"type": "file","id": 27},{"album": "The Hobbit An Unexpected Journey","name": "02. Old Friends (Extended Version).mp3","artist": "Howard Shore","format": ".mp3","playtime": 300,"type": "file","id": 28},{"album": "The Hobbit An Unexpected Journey","name": "03. An Unexpected Party (Extended Version).mp3","artist": "Howard Shore","format": ".mp3","playtime": 250,"type": "file","id": 29},{"album": "The Hobbit An Unexpected Journey","name": "04. Blunt the Knives (Exclusive Bonus Track).mp3","artist": "The Dwarf Cast","format": ".mp3","playtime": 61,"type": "file","id": 30},{"album": "The Hobbit An Unexpected Journey","name": "05. Axe or Sword.mp3","artist": "Howard Shore","format": ".mp3","playtime": 359,"type": "file","id": 31},{"album": "The Hobbit An Unexpected Journey","name": "06. Misty Mountains.mp3","artist": "The Dwarf Cast and Richard Armitage","format": ".mp3","playtime": 102,"type": "file","id": 32},{"album": "The Hobbit An Unexpected Journey","name": "07. The Adventure Begins.mp3","artist": "Howard Shore","format": ".mp3","playtime": 125,"type": "file","id": 33},{"album": "The Hobbit An Unexpected Journey","name": "08. The World Is Ahead.mp3","artist": "Howard Shore","format": ".mp3","playtime": 141,"type": "file","id": 34},{"album": "The Hobbit An Unexpected Journey","name": "09. An Ancient Enemy.mp3","artist": "Howard Shore","format": ".mp3","playtime": 298,"type": "file","id": 35},{"album": "The Hobbit An Unexpected Journey","name": "10. Radagast the Brown (Extended Version).mp3","artist": "Howard Shore","format": ".mp3","playtime": 399,"type": "file","id": 36},{"album": "The Hobbit An Unexpected Journey","name": "11. The Trollshaws (Exclusive Bonus Track).mp3","artist": "Howard Shore","format": ".mp3","playtime": 129,"type": "file","id": 37},{"album": "The Hobbit An Unexpected Journey","name": "12. Roast Mutton (Extended Version).mp3","artist": "Howard Shore","format": ".mp3","playtime": 298,"type": "file","id": 38},{"album": "The Hobbit An Unexpected Journey","name": "13. A Troll-Hoard.mp3","artist": "Howard Shore","format": ".mp3","playtime": 159,"type": "file","id": 39},{"album": "The Hobbit An Unexpected Journey","name": "14. The Hill of Sorcery.mp3","artist": "Howard Shore","format": ".mp3","playtime": 231,"type": "file","id": 40},{"album": "The Hobbit An Unexpected Journey","name": "15. Warg-Scouts.mp3","artist": "Howard Shore","format": ".mp3","playtime": 185,"type": "file","id": 41}],"type": "folder","name": "CD1","id": 26},{"children": [{"album": "The Hobbit An Unexpected Journey","name": "01. The Hidden Valley.mp3","artist": "Howard Shore","format": ".mp3","playtime": 229,"type": "file","id": 43},{"album": "The Hobbit An Unexpected Journey","name": "02. Moon Runes (Extended Version).mp3","artist": "Howard Shore","format": ".mp3","playtime": 218,"type": "file","id": 44},{"album": "The Hobbit An Unexpected Journey","name": "03. The Defiler.mp3","artist": "Howard Shore","format": ".mp3","playtime": 74,"type": "file","id": 45},{"album": "The Hobbit An Unexpected Journey","name": "04. The White Council (Extended Version).mp3","artist": "Howard Shore","format": ".mp3","playtime": 582,"type": "file","id": 46},{"album": "The Hobbit An Unexpected Journey","name": "05. Over Hill.mp3","artist": "Howard Shore","format": ".mp3","playtime": 223,"type": "file","id": 47},{"album": "The Hobbit An Unexpected Journey","name": "06. A Thunder Battle.mp3","artist": "Howard Shore","format": ".mp3","playtime": 236,"type": "file","id": 48},{"album": "The Hobbit An Unexpected Journey","name": "07. Under Hill.mp3","artist": "Howard Shore","format": ".mp3","playtime": 114,"type": "file","id": 49},{"album": "The Hobbit An Unexpected Journey","name": "08. Riddles in the Dark.mp3","artist": "Howard Shore","format": ".mp3","playtime": 323,"type": "file","id": 50},{"album": "The Hobbit An Unexpected Journey","name": "09. Brass Buttons.mp3","artist": "Howard Shore","format": ".mp3","playtime": 458,"type": "file","id": 51},{"album": "The Hobbit An Unexpected Journey","name": "10. Out of the Frying-Pan.mp3","artist": "Howard Shore","format": ".mp3","playtime": 355,"type": "file","id": 52},{"album": "The Hobbit An Unexpected Journey","name": "11. A Good Omen.mp3","artist": "Howard Shore","format": ".mp3","playtime": 347,"type": "file","id": 53},{"album": "The Hobbit An Unexpected Journey","name": "12. Song of the Lonely Mountain (Extended Version).mp3","artist": "Neil Finn","format": ".mp3","playtime": 363,"type": "file","id": 54},{"album": "The Hobbit An Unexpected Journey","name": "13. Dreaming of Bag End.mp3","artist": "Howard Shore","format": ".mp3","playtime": 109,"type": "file","id": 55},{"album": "The Hobbit An Unexpected Journey","name": "14. A Very Respectable Hobbit (Exclusive Bonus Track).mp3","artist": "Howard Shore","format": ".mp3","playtime": 87,"type": "file","id": 56},{"album": "The Hobbit An Unexpected Journey","name": "15. Erebor (Exclusive Bonus Track).mp3","artist": "Howard Shore","format": ".mp3","playtime": 79,"type": "file","id": 57},{"album": "The Hobbit An Unexpected Journey","name": "16. The Dwarf Lords (Exclusive Bonus Track).mp3","artist": "Howard Shore","format": ".mp3","playtime": 120,"type": "file","id": 58},{"album": "The Hobbit An Unexpected Journey","name": "17. The Edge of the Wild (Exclusive Bonus Track).mp3","artist": "Howard Shore","format": ".mp3","playtime": 218,"type": "file","id": 59}],"type": "folder","name": "CD2","id": 42}],"type": "folder","name": "The Hobbit An Unexpected Journey","id": 25},{"children": [{"album": null,"name": "1 Movement One.mp3","artist": null,"format": ".mp3","playtime": 685,"type": "file","id": 61},{"album": null,"name": "2 Movement Two.mp3","artist": null,"format": ".mp3","playtime": 2044,"type": "file","id": 62},{"album": "The Lord Of The Rings Symphony [Disc 2]","name": "3 Movement Three.mp3","artist": "Howard Shore","format": ".mp3","playtime": 1095,"type": "file","id": 63},{"album": "The Lord Of The Rings Symphony [Disc 2]","name": "4 Movement Four.mp3","artist": "Howard Shore","format": ".mp3","playtime": 628,"type": "file","id": 64},{"album": "The Lord Of The Rings Symphony [Disc 2]","name": "5 Movement Five.mp3","artist": "Howard Shore","format": ".mp3","playtime": 926,"type": "file","id": 65},{"album": "The Lord Of The Rings Symphony [Disc 2]","name": "6 Movement Six.mp3","artist": "Howard Shore","format": ".mp3","playtime": 1572,"type": "file","id": 66},{"format": "notaudio","type": "file","name": "AlbumArtSmall.jpg","id": 67},{"format": "notaudio","type": "file","name": "Folder.jpg","id": 68}],"type": "folder","name": "The Lord of the Rings Symphony","id": 60},{"children": [{"format": "notaudio","type": "file","name": "Thumbs.db","id": 70},{"children": [{"album": "The Lord of the Rings Trilogy","name": "01 - The Fellowship.mp3","artist": "Howard Shore","format": ".mp3","playtime": 352,"type": "file","id": 72},{"album": "The Lord of the Rings Trilogy","name": "02 - The Prophecy.mp3","artist": "Howard Shore","format": ".mp3","playtime": 301,"type": "file","id": 73},{"album": "The Lord of the Rings Trilogy","name": "03 - Concerning Hobbits.mp3","artist": "Howard Shore","format": ".mp3","playtime": 164,"type": "file","id": 74},{"album": "The Lord of the Rings Trilogy","name": "04 - The Shadow of the Past - A Knife in the Dark.mp3","artist": "Howard Shore","format": ".mp3","playtime": 446,"type": "file","id": 75},{"album": "The Lord of the Rings Trilogy","name": "05 - The Bridge of Khazad Dum.mp3","artist": "Howard Shore","format": ".mp3","playtime": 358,"type": "file","id": 76},{"album": "The Lord of the Rings Trilogy","name": "06 - May It Be (Instrumental Version).mp3","artist": "Enya","format": ".mp3","playtime": 319,"type": "file","id": 77},{"album": "The Lord of the Rings Trilogy","name": "07 - The Riders of Rohan.mp3","artist": "Howard Shore","format": ".mp3","playtime": 232,"type": "file","id": 78},{"album": "The Lord of the Rings Trilogy","name": "08 - Evenstar.mp3","artist": "Howard Shore","format": ".mp3","playtime": 218,"type": "file","id": 79},{"album": "The Lord of the Rings Trilogy","name": "09 - Forth Eorlingas - Isengard Unleashed.mp3","artist": "Howard Shore","format": ".mp3","playtime": 510,"type": "file","id": 80},{"album": "The Lord of the Rings Trilogy","name": "10 - Gollum's Song (Instrumental Version).mp3","artist": "Howard Shore  Fran Walsh","format": ".mp3","playtime": 348,"type": "file","id": 81}],"type": "folder","name": "Disc 1","id": 71},{"children": [{"album": "The Lord of the Rings Trilogy","name": "01 - Hope and Memory - Minas Tirith.mp3","artist": "Howard Shore","format": ".mp3","playtime": 158,"type": "file","id": 83},{"album": "The Lord of the Rings Trilogy","name": "02 - The White Tree.mp3","artist": "Howard Shore","format": ".mp3","playtime": 227,"type": "file","id": 84},{"album": "The Lord of the Rings Trilogy","name": "03 - Twilight and Shadow.mp3","artist": "Howard Shore","format": ".mp3","playtime": 233,"type": "file","id": 85},{"album": "The Lord of the Rings Trilogy","name": "04 - The Fields of Pelennor.mp3","artist": "Howard Shore","format": ".mp3","playtime": 192,"type": "file","id": 86},{"album": "The Lord of the Rings Trilogy","name": "05 - The Return of the King - Finale.mp3","artist": "Howard Shore","format": ".mp3","playtime": 977,"type": "file","id": 87},{"album": "The Lord of the Rings Trilogy","name": "06 - Into the West (Instrumental Version).mp3","artist": "Howard Shore, Fran Walsh Annie Lennox","format": ".mp3","playtime": 280,"type": "file","id": 88},{"album": "The Lord of the Rings Trilogy","name": "07 - Gollum's Song (Performed by Helen Hobson).mp3","artist": "Helen Hobson","format": ".mp3","playtime": 245,"type": "file","id": 89},{"album": "The Lord of the Rings Trilogy","name": "08 - May It Be (Performed by Tara Scammell).mp3","artist": "Tara Scammell","format": ".mp3","playtime": 286,"type": "file","id": 90},{"album": "The Lord of the Rings Trilogy","name": "09 - Into the West (Performed by Helen Hobson).mp3","artist": "Helen Hobson","format": ".mp3","playtime": 280,"type": "file","id": 91}],"type": "folder","name": "Disc 2","id": 82}],"type": "folder","name": "The Lord of the Rings Trilogy","id": 69}],"type": "folder","name": "Howard Shore","id": 24}],"type": "folder","name": "music","id": 1}],"type": "folder","name": "CHARLES_16G","id": 0}</string><string name="button_scan">Scan for devices</string><string name="title_connected_to">connected to <ns1:g id="device_name">%1$s</ns1:g></string></file><file path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\values\template-dimens.xml" qualifiers=""><dimen name="margin_small">8dp</dimen><dimen name="vertical_page_margin">@dimen/margin_medium</dimen><dimen name="margin_tiny">4dp</dimen><dimen name="margin_large">32dp</dimen><dimen name="margin_huge">64dp</dimen><dimen name="margin_medium">16dp</dimen><dimen name="horizontal_page_margin">@dimen/margin_medium</dimen></file><file path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\values\template-styles.xml" qualifiers=""><style name="Theme.Base" parent="android:Theme.Light"/><style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style><style name="AppTheme" parent="Theme.Sample"/><style name="Theme.Sample" parent="Theme.Base"/><style name="Widget"/><style name="Widget.SampleMessageTile">
+        <item name="android:background">@drawable/tile</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style></file><file path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\values-sw600dp\template-dimens.xml" qualifiers="sw600dp-v13"><dimen name="vertical_page_margin">@dimen/margin_medium</dimen><dimen name="horizontal_page_margin">@dimen/margin_huge</dimen></file><file path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\values-sw600dp\template-styles.xml" qualifiers="sw600dp-v13"><style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:shadowDy">-6.5</item>
+    </style></file><file path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\values-v11\template-styles.xml" qualifiers="v11"><style name="Theme.Base" parent="android:Theme.Holo.Light"/></file><file path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\values-v21\base-template-styles.xml" qualifiers="v21"><style name="Theme.Base" parent="android:Theme.Material.Light">
+    </style></file><file name="all" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\all.png" qualifiers="hdpi-v4" type="drawable"/><file name="background1" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\background1.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="background2" path="D:\Development\Android_workspace\BluetoothPi\Application\src\main\res\drawable-hdpi\background2.jpg" qualifiers="hdpi-v4" type="drawable"/></source><source path="D:\Development\Android_workspace\BluetoothPi\Application\src\common\res"/><source path="D:\Development\Android_workspace\BluetoothPi\Application\src\template\res"/><source path="D:\Development\Android_workspace\BluetoothPi\Application\build\generated\res\rs\debug"/><source path="D:\Development\Android_workspace\BluetoothPi\Application\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="D:\Development\Android_workspace\BluetoothPi\Application\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="GridLayout"><attr name="orientation"><enum name="horizontal" value="0"/><enum name="vertical" value="1"/></attr><attr format="integer" name="rowCount"/><attr format="integer" name="columnCount"/><attr format="boolean" name="useDefaultMargins"/><attr name="alignmentMode"><enum name="alignBounds" value="0"/><enum name="alignMargins" value="1"/></attr><attr format="boolean" name="rowOrderPreserved"/><attr format="boolean" name="columnOrderPreserved"/></declare-styleable><declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable><declare-styleable name="GridLayout_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_margin"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginRight"/><attr name="android:layout_marginBottom"/><attr format="integer" name="layout_row"/><attr format="integer" min="1" name="layout_rowSpan"/><attr format="float" name="layout_rowWeight"/><attr format="integer" name="layout_column"/><attr format="integer" min="1" name="layout_columnSpan"/><attr format="float" name="layout_columnWeight"/><attr name="layout_gravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr></declare-styleable></configuration></mergedItems></merger>

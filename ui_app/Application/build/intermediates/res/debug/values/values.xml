@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/D:/Development/Android_workspace/BluetoothPi/Application/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="weekday">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wen</item>
+        <item>Thu</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wen</item>
+        <item>Thu</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wen</item>
+        <item>Thu</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wen</item>
+        <item>Thu</item>
+    </string-array>
+    <!-- From: file:/D:/Development/Android_workspace/BluetoothPi/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <color name="cardview_dark_background">#FF202020</color>
+    <color name="cardview_light_background">#FFFAFAFA</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable>
+    <declare-styleable name="GridLayout"><attr name="orientation"><enum name="horizontal" value="0"/><enum name="vertical" value="1"/></attr><attr format="integer" name="rowCount"/><attr format="integer" name="columnCount"/><attr format="boolean" name="useDefaultMargins"/><attr name="alignmentMode"><enum name="alignBounds" value="0"/><enum name="alignMargins" value="1"/></attr><attr format="boolean" name="rowOrderPreserved"/><attr format="boolean" name="columnOrderPreserved"/></declare-styleable>
+    <declare-styleable name="GridLayout_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_margin"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginRight"/><attr name="android:layout_marginBottom"/><attr format="integer" name="layout_row"/><attr format="integer" min="1" name="layout_rowSpan"/><attr format="float" name="layout_rowWeight"/><attr format="integer" name="layout_column"/><attr format="integer" min="1" name="layout_columnSpan"/><attr format="float" name="layout_columnWeight"/><attr name="layout_gravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr></declare-styleable>
+    <dimen name="cardview_compat_inset_shadow">1dp</dimen>
+    <dimen name="cardview_default_elevation">2dp</dimen>
+    <dimen name="cardview_default_radius">2dp</dimen>
+    <!-- From: file:/D:/Development/Android_workspace/BluetoothPi/Application/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/21.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="default_gap">16dip</dimen>
+    <!-- From: file:/D:/Development/Android_workspace/BluetoothPi/Application/src/main/res/values/template-dimens.xml -->
+    <eat-comment/>
+    <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
+    <!-- From: file:/D:/Development/Android_workspace/BluetoothPi/Application/src/main/res/values/base-strings.xml -->
+    <eat-comment/>
+    <string name="app_name">BTMusicBox</string>
+    <!-- From: file:/D:/Development/Android_workspace/BluetoothPi/Application/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <!-- From: file:/D:/Development/Android_workspace/BluetoothPi/Application/src/main/res/values/base-strings.xml -->
+    <eat-comment/>
+    <string name="intro_message">
+        <![CDATA[
+        
+            
+            This application allows two Android devices to carry out two-way text chat over
+            Bluetooth. It demonstrates all the fundamental Bluetooth API capabilites, such as:
+              (1) Scanning for other Bluetooth devices
+              (2) Querying the local Bluetooth adapter for paired Bluetooth devices
+              (3) Establishing RFCOMM channels/sockets
+              (4) Connecting to a remote device
+              (5) Transfering data over Bluetooth
+            
+        
+        ]]>
+    </string>
+    <!-- From: file:/D:/Development/Android_workspace/BluetoothPi/Application/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="jsonfile">{"children": [{"children": [{"children": [{"album": "Les Miserables","name": "01. Look Down.mp3","artist": "Hugh Jackman, Russell Crowe Convicts","format": ".mp3","playtime": 141,"type": "file","id": 3},{"album": "Les Miserables","name": "02. The Bishop.mp3","artist": "Hugh Jackman Colm Wilkinson","format": ".mp3","playtime": 95,"type": "file","id": 4},{"album": "Les Miserables","name": "03. Valjean's Soliloquy.mp3","artist": "Hugh Jackman","format": ".mp3","playtime": 199,"type": "file","id": 5},{"album": "Les Miserables","name": "04. At The End Of The Day.mp3","artist": "Hugh Jackman, Anne Hathaway, Factory Girls Cast","format": ".mp3","playtime": 267,"type": "file","id": 6},{"album": "Les Miserables","name": "05. I Dreamed A Dream.mp3","artist": "Anne Hathaway","format": ".mp3","playtime": 278,"type": "file","id": 7},{"album": "Les Miserables","name": "06. The Confrontation.mp3","artist": "Hugh Jackman  Russell Crowe","format": ".mp3","playtime": 115,"type": "file","id": 8},{"album": "Les Miserables","name": "07. Castle On A Cloud.mp3","artist": "Isabelle Allen","format": ".mp3","playtime": 71,"type": "file","id": 9},{"album": "Les Miserables","name": "08. Master Of The House.mp3","artist": "Sacha Baron Cohen, Helena Bonham Carter  Cast","format": ".mp3","playtime": 292,"type": "file","id": 10},{"album": "Les Miserables","name": "09. Suddenly.mp3","artist": "Hugh Jackman","format": ".mp3","playtime": 152,"type": "file","id": 11},{"album": "Les Miserables","name": "10. Stars.mp3","artist": "Russell Crowe","format": ".mp3","playtime": 181,"type": "file","id": 12},{"album": "Les Miserables","name": "11. ABC Cafe-Red  Black.mp3","artist": "Eddie Redmayne, Aaron Tveit  Students","format": ".mp3","playtime": 262,"type": "file","id": 13},{"album": "Les Miserables","name": "12. In My Life-A Heart Full Of Love.mp3","artist": "Amanda Seyfried, Eddie Redmayne  Samantha Barks","format": ".mp3","playtime": 192,"type": "file","id": 14},{"album": "Les Miserables","name": "13. On My Own.mp3","artist": "Samantha Barks","format": ".mp3","playtime": 191,"type": "file","id": 15},{"album": "Les Miserables","name": "14. One Day More.mp3","artist": "Cast Of Les Miserables","format": ".mp3","playtime": 219,"type": "file","id": 16},{"album": "Les Miserables","name": "15. Drink With Me.mp3","artist": "Eddie Redmayne, Daniel Huttlestone  Students","format": ".mp3","playtime": 102,"type": "file","id": 17},{"album": "Les Miserables","name": "16. Bring Him Home.mp3","artist": "Hugh Jackman","format": ".mp3","playtime": 217,"type": "file","id": 18},{"album": "Les Miserables","name": "17. The Final Battle.mp3","artist": "Students Cast Of Les Miserables","format": ".mp3","playtime": 197,"type": "file","id": 19},{"album": "Les Miserables","name": "18. Javert's Suicide.mp3","artist": "Russell Crowe","format": ".mp3","playtime": 180,"type": "file","id": 20},{"album": "Les Miserables","name": "19. Empty Chairs At Empty Tables.mp3","artist": "Eddie Redmayne","format": ".mp3","playtime": 193,"type": "file","id": 21},{"album": "Les Miserables","name": "20. Epilogue.mp3","artist": "Cast Of Les Miserables","format": ".mp3","playtime": 380,"type": "file","id": 22}],"type": "folder","name": "Les Miserables","id": 2},{"format": "notaudio","type": "file","name": "04.NIRGILIS - sakura.wav","id": 23},{"children": [{"children": [{"children": [{"album": "The Hobbit An Unexpected Journey","name": "01. My Dear Frodo.mp3","artist": "Howard Shore","format": ".mp3","playtime": 483,"type": "file","id": 27},{"album": "The Hobbit An Unexpected Journey","name": "02. Old Friends (Extended Version).mp3","artist": "Howard Shore","format": ".mp3","playtime": 300,"type": "file","id": 28},{"album": "The Hobbit An Unexpected Journey","name": "03. An Unexpected Party (Extended Version).mp3","artist": "Howard Shore","format": ".mp3","playtime": 250,"type": "file","id": 29},{"album": "The Hobbit An Unexpected Journey","name": "04. Blunt the Knives (Exclusive Bonus Track).mp3","artist": "The Dwarf Cast","format": ".mp3","playtime": 61,"type": "file","id": 30},{"album": "The Hobbit An Unexpected Journey","name": "05. Axe or Sword.mp3","artist": "Howard Shore","format": ".mp3","playtime": 359,"type": "file","id": 31},{"album": "The Hobbit An Unexpected Journey","name": "06. Misty Mountains.mp3","artist": "The Dwarf Cast and Richard Armitage","format": ".mp3","playtime": 102,"type": "file","id": 32},{"album": "The Hobbit An Unexpected Journey","name": "07. The Adventure Begins.mp3","artist": "Howard Shore","format": ".mp3","playtime": 125,"type": "file","id": 33},{"album": "The Hobbit An Unexpected Journey","name": "08. The World Is Ahead.mp3","artist": "Howard Shore","format": ".mp3","playtime": 141,"type": "file","id": 34},{"album": "The Hobbit An Unexpected Journey","name": "09. An Ancient Enemy.mp3","artist": "Howard Shore","format": ".mp3","playtime": 298,"type": "file","id": 35},{"album": "The Hobbit An Unexpected Journey","name": "10. Radagast the Brown (Extended Version).mp3","artist": "Howard Shore","format": ".mp3","playtime": 399,"type": "file","id": 36},{"album": "The Hobbit An Unexpected Journey","name": "11. The Trollshaws (Exclusive Bonus Track).mp3","artist": "Howard Shore","format": ".mp3","playtime": 129,"type": "file","id": 37},{"album": "The Hobbit An Unexpected Journey","name": "12. Roast Mutton (Extended Version).mp3","artist": "Howard Shore","format": ".mp3","playtime": 298,"type": "file","id": 38},{"album": "The Hobbit An Unexpected Journey","name": "13. A Troll-Hoard.mp3","artist": "Howard Shore","format": ".mp3","playtime": 159,"type": "file","id": 39},{"album": "The Hobbit An Unexpected Journey","name": "14. The Hill of Sorcery.mp3","artist": "Howard Shore","format": ".mp3","playtime": 231,"type": "file","id": 40},{"album": "The Hobbit An Unexpected Journey","name": "15. Warg-Scouts.mp3","artist": "Howard Shore","format": ".mp3","playtime": 185,"type": "file","id": 41}],"type": "folder","name": "CD1","id": 26},{"children": [{"album": "The Hobbit An Unexpected Journey","name": "01. The Hidden Valley.mp3","artist": "Howard Shore","format": ".mp3","playtime": 229,"type": "file","id": 43},{"album": "The Hobbit An Unexpected Journey","name": "02. Moon Runes (Extended Version).mp3","artist": "Howard Shore","format": ".mp3","playtime": 218,"type": "file","id": 44},{"album": "The Hobbit An Unexpected Journey","name": "03. The Defiler.mp3","artist": "Howard Shore","format": ".mp3","playtime": 74,"type": "file","id": 45},{"album": "The Hobbit An Unexpected Journey","name": "04. The White Council (Extended Version).mp3","artist": "Howard Shore","format": ".mp3","playtime": 582,"type": "file","id": 46},{"album": "The Hobbit An Unexpected Journey","name": "05. Over Hill.mp3","artist": "Howard Shore","format": ".mp3","playtime": 223,"type": "file","id": 47},{"album": "The Hobbit An Unexpected Journey","name": "06. A Thunder Battle.mp3","artist": "Howard Shore","format": ".mp3","playtime": 236,"type": "file","id": 48},{"album": "The Hobbit An Unexpected Journey","name": "07. Under Hill.mp3","artist": "Howard Shore","format": ".mp3","playtime": 114,"type": "file","id": 49},{"album": "The Hobbit An Unexpected Journey","name": "08. Riddles in the Dark.mp3","artist": "Howard Shore","format": ".mp3","playtime": 323,"type": "file","id": 50},{"album": "The Hobbit An Unexpected Journey","name": "09. Brass Buttons.mp3","artist": "Howard Shore","format": ".mp3","playtime": 458,"type": "file","id": 51},{"album": "The Hobbit An Unexpected Journey","name": "10. Out of the Frying-Pan.mp3","artist": "Howard Shore","format": ".mp3","playtime": 355,"type": "file","id": 52},{"album": "The Hobbit An Unexpected Journey","name": "11. A Good Omen.mp3","artist": "Howard Shore","format": ".mp3","playtime": 347,"type": "file","id": 53},{"album": "The Hobbit An Unexpected Journey","name": "12. Song of the Lonely Mountain (Extended Version).mp3","artist": "Neil Finn","format": ".mp3","playtime": 363,"type": "file","id": 54},{"album": "The Hobbit An Unexpected Journey","name": "13. Dreaming of Bag End.mp3","artist": "Howard Shore","format": ".mp3","playtime": 109,"type": "file","id": 55},{"album": "The Hobbit An Unexpected Journey","name": "14. A Very Respectable Hobbit (Exclusive Bonus Track).mp3","artist": "Howard Shore","format": ".mp3","playtime": 87,"type": "file","id": 56},{"album": "The Hobbit An Unexpected Journey","name": "15. Erebor (Exclusive Bonus Track).mp3","artist": "Howard Shore","format": ".mp3","playtime": 79,"type": "file","id": 57},{"album": "The Hobbit An Unexpected Journey","name": "16. The Dwarf Lords (Exclusive Bonus Track).mp3","artist": "Howard Shore","format": ".mp3","playtime": 120,"type": "file","id": 58},{"album": "The Hobbit An Unexpected Journey","name": "17. The Edge of the Wild (Exclusive Bonus Track).mp3","artist": "Howard Shore","format": ".mp3","playtime": 218,"type": "file","id": 59}],"type": "folder","name": "CD2","id": 42}],"type": "folder","name": "The Hobbit An Unexpected Journey","id": 25},{"children": [{"album": null,"name": "1 Movement One.mp3","artist": null,"format": ".mp3","playtime": 685,"type": "file","id": 61},{"album": null,"name": "2 Movement Two.mp3","artist": null,"format": ".mp3","playtime": 2044,"type": "file","id": 62},{"album": "The Lord Of The Rings Symphony [Disc 2]","name": "3 Movement Three.mp3","artist": "Howard Shore","format": ".mp3","playtime": 1095,"type": "file","id": 63},{"album": "The Lord Of The Rings Symphony [Disc 2]","name": "4 Movement Four.mp3","artist": "Howard Shore","format": ".mp3","playtime": 628,"type": "file","id": 64},{"album": "The Lord Of The Rings Symphony [Disc 2]","name": "5 Movement Five.mp3","artist": "Howard Shore","format": ".mp3","playtime": 926,"type": "file","id": 65},{"album": "The Lord Of The Rings Symphony [Disc 2]","name": "6 Movement Six.mp3","artist": "Howard Shore","format": ".mp3","playtime": 1572,"type": "file","id": 66},{"format": "notaudio","type": "file","name": "AlbumArtSmall.jpg","id": 67},{"format": "notaudio","type": "file","name": "Folder.jpg","id": 68}],"type": "folder","name": "The Lord of the Rings Symphony","id": 60},{"children": [{"format": "notaudio","type": "file","name": "Thumbs.db","id": 70},{"children": [{"album": "The Lord of the Rings Trilogy","name": "01 - The Fellowship.mp3","artist": "Howard Shore","format": ".mp3","playtime": 352,"type": "file","id": 72},{"album": "The Lord of the Rings Trilogy","name": "02 - The Prophecy.mp3","artist": "Howard Shore","format": ".mp3","playtime": 301,"type": "file","id": 73},{"album": "The Lord of the Rings Trilogy","name": "03 - Concerning Hobbits.mp3","artist": "Howard Shore","format": ".mp3","playtime": 164,"type": "file","id": 74},{"album": "The Lord of the Rings Trilogy","name": "04 - The Shadow of the Past - A Knife in the Dark.mp3","artist": "Howard Shore","format": ".mp3","playtime": 446,"type": "file","id": 75},{"album": "The Lord of the Rings Trilogy","name": "05 - The Bridge of Khazad Dum.mp3","artist": "Howard Shore","format": ".mp3","playtime": 358,"type": "file","id": 76},{"album": "The Lord of the Rings Trilogy","name": "06 - May It Be (Instrumental Version).mp3","artist": "Enya","format": ".mp3","playtime": 319,"type": "file","id": 77},{"album": "The Lord of the Rings Trilogy","name": "07 - The Riders of Rohan.mp3","artist": "Howard Shore","format": ".mp3","playtime": 232,"type": "file","id": 78},{"album": "The Lord of the Rings Trilogy","name": "08 - Evenstar.mp3","artist": "Howard Shore","format": ".mp3","playtime": 218,"type": "file","id": 79},{"album": "The Lord of the Rings Trilogy","name": "09 - Forth Eorlingas - Isengard Unleashed.mp3","artist": "Howard Shore","format": ".mp3","playtime": 510,"type": "file","id": 80},{"album": "The Lord of the Rings Trilogy","name": "10 - Gollum's Song (Instrumental Version).mp3","artist": "Howard Shore  Fran Walsh","format": ".mp3","playtime": 348,"type": "file","id": 81}],"type": "folder","name": "Disc 1","id": 71},{"children": [{"album": "The Lord of the Rings Trilogy","name": "01 - Hope and Memory - Minas Tirith.mp3","artist": "Howard Shore","format": ".mp3","playtime": 158,"type": "file","id": 83},{"album": "The Lord of the Rings Trilogy","name": "02 - The White Tree.mp3","artist": "Howard Shore","format": ".mp3","playtime": 227,"type": "file","id": 84},{"album": "The Lord of the Rings Trilogy","name": "03 - Twilight and Shadow.mp3","artist": "Howard Shore","format": ".mp3","playtime": 233,"type": "file","id": 85},{"album": "The Lord of the Rings Trilogy","name": "04 - The Fields of Pelennor.mp3","artist": "Howard Shore","format": ".mp3","playtime": 192,"type": "file","id": 86},{"album": "The Lord of the Rings Trilogy","name": "05 - The Return of the King - Finale.mp3","artist": "Howard Shore","format": ".mp3","playtime": 977,"type": "file","id": 87},{"album": "The Lord of the Rings Trilogy","name": "06 - Into the West (Instrumental Version).mp3","artist": "Howard Shore, Fran Walsh Annie Lennox","format": ".mp3","playtime": 280,"type": "file","id": 88},{"album": "The Lord of the Rings Trilogy","name": "07 - Gollum's Song (Performed by Helen Hobson).mp3","artist": "Helen Hobson","format": ".mp3","playtime": 245,"type": "file","id": 89},{"album": "The Lord of the Rings Trilogy","name": "08 - May It Be (Performed by Tara Scammell).mp3","artist": "Tara Scammell","format": ".mp3","playtime": 286,"type": "file","id": 90},{"album": "The Lord of the Rings Trilogy","name": "09 - Into the West (Performed by Helen Hobson).mp3","artist": "Helen Hobson","format": ".mp3","playtime": 280,"type": "file","id": 91}],"type": "folder","name": "Disc 2","id": 82}],"type": "folder","name": "The Lord of the Rings Trilogy","id": 69}],"type": "folder","name": "Howard Shore","id": 24}],"type": "folder","name": "music","id": 1}],"type": "folder","name": "CHARLES_16G","id": 0}</string>
+    <string name="none_found">No devices found</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <!-- From: file:/D:/Development/Android_workspace/BluetoothPi/Application/src/main/res/values/fragmentview_strings.xml -->
+    <eat-comment/>
+    <string name="sample_hide_log">Tracks</string>
+    <string name="sample_show_log">Log</string>
+    <!-- From: file:/D:/Development/Android_workspace/BluetoothPi/Application/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="scanning">scanning for devices...</string>
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="send">Send</string>
+    <string name="title_connected_to">connected to <ns1:g id="device_name">%1$s</ns1:g></string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_not_connected">not connected</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <!-- From: file:/D:/Development/Android_workspace/BluetoothPi/Application/src/main/res/values/template-styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.Sample"/>
+    <!-- From: file:/D:/Development/Android_workspace/BluetoothPi/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <!-- From: file:/D:/Development/Android_workspace/BluetoothPi/Application/src/main/res/values/template-styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Base" parent="android:Theme.Light"/>
+    <style name="Theme.Sample" parent="Theme.Base"/>
+    <style name="Widget"/>
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="Widget.SampleMessageTile">
+        <item name="android:background">@drawable/tile</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>
